@@ -7,32 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		961180A2151AC84900CE758F /* ColorTouchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 961180A0151AC84900CE758F /* ColorTouchViewController.xib */; };
+		96B9738F151AC6AF00488912 /* ColorTouchAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B97383151AC6AF00488912 /* ColorTouchAppDelegate.m */; };
+		96B97390151AC6AF00488912 /* ColorTouchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B97385151AC6AF00488912 /* ColorTouchViewController.m */; };
+		96B97392151AC6AF00488912 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96B97389151AC6AF00488912 /* InfoPlist.strings */; };
+		96B97393151AC6AF00488912 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96B9738B151AC6AF00488912 /* MainWindow.xib */; };
+		96B97394151AC6AF00488912 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B9738D151AC6AF00488912 /* main.m */; };
 		96F4B26A1432D39000BF47A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96F4B2691432D39000BF47A2 /* UIKit.framework */; };
 		96F4B26C1432D39000BF47A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96F4B26B1432D39000BF47A2 /* Foundation.framework */; };
 		96F4B26E1432D39000BF47A2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96F4B26D1432D39000BF47A2 /* CoreGraphics.framework */; };
-		96F4B2741432D39000BF47A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96F4B2721432D39000BF47A2 /* InfoPlist.strings */; };
-		96F4B2771432D39000BF47A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F4B2761432D39000BF47A2 /* main.m */; };
-		96F4B27A1432D39000BF47A2 /* TouchesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F4B2791432D39000BF47A2 /* TouchesAppDelegate.m */; };
-		96F4B27D1432D39000BF47A2 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96F4B27B1432D39000BF47A2 /* MainWindow.xib */; };
-		96F4B2801432D39000BF47A2 /* TouchesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F4B27F1432D39000BF47A2 /* TouchesViewController.m */; };
-		96F4B2831432D39000BF47A2 /* TouchesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96F4B2811432D39000BF47A2 /* TouchesViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		96F4B2651432D38F00BF47A2 /* Touches.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Touches.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		961180A1151AC84900CE758F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = ColorTouchViewController.xib; sourceTree = "<group>"; };
+		96B97380151AC6AF00488912 /* ColorTouch-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "ColorTouch-Info.plist"; path = "ColorTouch/ColorTouch-Info.plist"; sourceTree = SOURCE_ROOT; };
+		96B97381151AC6AF00488912 /* ColorTouch-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "ColorTouch-Prefix.pch"; path = "ColorTouch/ColorTouch-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		96B97382151AC6AF00488912 /* ColorTouchAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColorTouchAppDelegate.h; path = ColorTouch/ColorTouchAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		96B97383151AC6AF00488912 /* ColorTouchAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ColorTouchAppDelegate.m; path = ColorTouch/ColorTouchAppDelegate.m; sourceTree = SOURCE_ROOT; };
+		96B97384151AC6AF00488912 /* ColorTouchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColorTouchViewController.h; path = ColorTouch/ColorTouchViewController.h; sourceTree = SOURCE_ROOT; };
+		96B97385151AC6AF00488912 /* ColorTouchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ColorTouchViewController.m; path = ColorTouch/ColorTouchViewController.m; sourceTree = SOURCE_ROOT; };
+		96B9738A151AC6AF00488912 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		96B9738C151AC6AF00488912 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = MainWindow.xib; sourceTree = "<group>"; };
+		96B9738D151AC6AF00488912 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ColorTouch/main.m; sourceTree = SOURCE_ROOT; };
+		96F4B2651432D38F00BF47A2 /* ColorTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96F4B2691432D39000BF47A2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		96F4B26B1432D39000BF47A2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		96F4B26D1432D39000BF47A2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		96F4B2711432D39000BF47A2 /* Touches-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Touches-Info.plist"; sourceTree = "<group>"; };
-		96F4B2731432D39000BF47A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		96F4B2751432D39000BF47A2 /* Touches-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Touches-Prefix.pch"; sourceTree = "<group>"; };
-		96F4B2761432D39000BF47A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		96F4B2781432D39000BF47A2 /* TouchesAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchesAppDelegate.h; sourceTree = "<group>"; };
-		96F4B2791432D39000BF47A2 /* TouchesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchesAppDelegate.m; sourceTree = "<group>"; };
-		96F4B27C1432D39000BF47A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		96F4B27E1432D39000BF47A2 /* TouchesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchesViewController.h; sourceTree = "<group>"; };
-		96F4B27F1432D39000BF47A2 /* TouchesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchesViewController.m; sourceTree = "<group>"; };
-		96F4B2821432D39000BF47A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TouchesViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,10 +49,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		96B97386151AC6AF00488912 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				961180A0151AC84900CE758F /* ColorTouchViewController.xib */,
+				96B97389151AC6AF00488912 /* InfoPlist.strings */,
+				96B9738B151AC6AF00488912 /* MainWindow.xib */,
+			);
+			name = "Supporting Files";
+			path = ColorTouch/en.lproj;
+			sourceTree = SOURCE_ROOT;
+		};
 		96F4B25A1432D38F00BF47A2 = {
 			isa = PBXGroup;
 			children = (
-				96F4B26F1432D39000BF47A2 /* Touches */,
+				96F4B26F1432D39000BF47A2 /* ColorTouch */,
 				96F4B2681432D39000BF47A2 /* Frameworks */,
 				96F4B2661432D38F00BF47A2 /* Products */,
 			);
@@ -61,7 +72,7 @@
 		96F4B2661432D38F00BF47A2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				96F4B2651432D38F00BF47A2 /* Touches.app */,
+				96F4B2651432D38F00BF47A2 /* ColorTouch.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,37 +87,28 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		96F4B26F1432D39000BF47A2 /* Touches */ = {
+		96F4B26F1432D39000BF47A2 /* ColorTouch */ = {
 			isa = PBXGroup;
 			children = (
-				96F4B2781432D39000BF47A2 /* TouchesAppDelegate.h */,
-				96F4B2791432D39000BF47A2 /* TouchesAppDelegate.m */,
-				96F4B27B1432D39000BF47A2 /* MainWindow.xib */,
-				96F4B27E1432D39000BF47A2 /* TouchesViewController.h */,
-				96F4B27F1432D39000BF47A2 /* TouchesViewController.m */,
-				96F4B2811432D39000BF47A2 /* TouchesViewController.xib */,
-				96F4B2701432D39000BF47A2 /* Supporting Files */,
+				96B97380151AC6AF00488912 /* ColorTouch-Info.plist */,
+				96B97381151AC6AF00488912 /* ColorTouch-Prefix.pch */,
+				96B97382151AC6AF00488912 /* ColorTouchAppDelegate.h */,
+				96B97383151AC6AF00488912 /* ColorTouchAppDelegate.m */,
+				96B97384151AC6AF00488912 /* ColorTouchViewController.h */,
+				96B97385151AC6AF00488912 /* ColorTouchViewController.m */,
+				96B97386151AC6AF00488912 /* Supporting Files */,
+				96B9738D151AC6AF00488912 /* main.m */,
 			);
+			name = ColorTouch;
 			path = Touches;
-			sourceTree = "<group>";
-		};
-		96F4B2701432D39000BF47A2 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				96F4B2711432D39000BF47A2 /* Touches-Info.plist */,
-				96F4B2721432D39000BF47A2 /* InfoPlist.strings */,
-				96F4B2751432D39000BF47A2 /* Touches-Prefix.pch */,
-				96F4B2761432D39000BF47A2 /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		96F4B2641432D38F00BF47A2 /* Touches */ = {
+		96F4B2641432D38F00BF47A2 /* ColorTouch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 96F4B2861432D39000BF47A2 /* Build configuration list for PBXNativeTarget "Touches" */;
+			buildConfigurationList = 96F4B2861432D39000BF47A2 /* Build configuration list for PBXNativeTarget "ColorTouch" */;
 			buildPhases = (
 				96F4B2611432D38F00BF47A2 /* Sources */,
 				96F4B2621432D38F00BF47A2 /* Frameworks */,
@@ -116,9 +118,9 @@
 			);
 			dependencies = (
 			);
-			name = Touches;
+			name = ColorTouch;
 			productName = Touches;
-			productReference = 96F4B2651432D38F00BF47A2 /* Touches.app */;
+			productReference = 96F4B2651432D38F00BF47A2 /* ColorTouch.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -126,7 +128,10 @@
 /* Begin PBXProject section */
 		96F4B25C1432D38F00BF47A2 /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = 96F4B25F1432D38F00BF47A2 /* Build configuration list for PBXProject "Touches" */;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 96F4B25F1432D38F00BF47A2 /* Build configuration list for PBXProject "ColorTouch" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -138,7 +143,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				96F4B2641432D38F00BF47A2 /* Touches */,
+				96F4B2641432D38F00BF47A2 /* ColorTouch */,
 			);
 		};
 /* End PBXProject section */
@@ -148,9 +153,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96F4B2741432D39000BF47A2 /* InfoPlist.strings in Resources */,
-				96F4B27D1432D39000BF47A2 /* MainWindow.xib in Resources */,
-				96F4B2831432D39000BF47A2 /* TouchesViewController.xib in Resources */,
+				96B97392151AC6AF00488912 /* InfoPlist.strings in Resources */,
+				96B97393151AC6AF00488912 /* MainWindow.xib in Resources */,
+				961180A2151AC84900CE758F /* ColorTouchViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,37 +166,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96F4B2771432D39000BF47A2 /* main.m in Sources */,
-				96F4B27A1432D39000BF47A2 /* TouchesAppDelegate.m in Sources */,
-				96F4B2801432D39000BF47A2 /* TouchesViewController.m in Sources */,
+				96B9738F151AC6AF00488912 /* ColorTouchAppDelegate.m in Sources */,
+				96B97390151AC6AF00488912 /* ColorTouchViewController.m in Sources */,
+				96B97394151AC6AF00488912 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		96F4B2721432D39000BF47A2 /* InfoPlist.strings */ = {
+		961180A0151AC84900CE758F /* ColorTouchViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				96F4B2731432D39000BF47A2 /* en */,
+				961180A1151AC84900CE758F /* en */,
+			);
+			name = ColorTouchViewController.xib;
+			sourceTree = "<group>";
+		};
+		96B97389151AC6AF00488912 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96B9738A151AC6AF00488912 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		96F4B27B1432D39000BF47A2 /* MainWindow.xib */ = {
+		96B9738B151AC6AF00488912 /* MainWindow.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				96F4B27C1432D39000BF47A2 /* en */,
+				96B9738C151AC6AF00488912 /* en */,
 			);
 			name = MainWindow.xib;
-			sourceTree = "<group>";
-		};
-		96F4B2811432D39000BF47A2 /* TouchesViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				96F4B2821432D39000BF47A2 /* en */,
-			);
-			name = TouchesViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -236,10 +241,11 @@
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Touches/Touches-Prefix.pch";
-				INFOPLIST_FILE = "Touches/Touches-Info.plist";
+				GCC_PREFIX_HEADER = "ColorTouch/ColorTouch-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "ColorTouch/ColorTouch-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ColorTouch;
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -251,10 +257,11 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Touches/Touches-Prefix.pch";
-				INFOPLIST_FILE = "Touches/Touches-Info.plist";
+				GCC_PREFIX_HEADER = "ColorTouch/ColorTouch-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "ColorTouch/ColorTouch-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ColorTouch;
 				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
@@ -264,7 +271,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		96F4B25F1432D38F00BF47A2 /* Build configuration list for PBXProject "Touches" */ = {
+		96F4B25F1432D38F00BF47A2 /* Build configuration list for PBXProject "ColorTouch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				96F4B2841432D39000BF47A2 /* Debug */,
@@ -273,7 +280,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		96F4B2861432D39000BF47A2 /* Build configuration list for PBXNativeTarget "Touches" */ = {
+		96F4B2861432D39000BF47A2 /* Build configuration list for PBXNativeTarget "ColorTouch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				96F4B2871432D39000BF47A2 /* Debug */,

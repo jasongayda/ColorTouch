@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96F4B26A1432D39000BF47A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96F4B2691432D39000BF47A2 /* UIKit.framework */; };
+		96F4B26C1432D39000BF47A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96F4B26B1432D39000BF47A2 /* Foundation.framework */; };
+		96F4B26E1432D39000BF47A2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96F4B26D1432D39000BF47A2 /* CoreGraphics.framework */; };
+		96F4B2741432D39000BF47A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96F4B2721432D39000BF47A2 /* InfoPlist.strings */; };
+		96F4B2771432D39000BF47A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F4B2761432D39000BF47A2 /* main.m */; };
+		96F4B27A1432D39000BF47A2 /* TouchesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F4B2791432D39000BF47A2 /* TouchesAppDelegate.m */; };
+		96F4B27D1432D39000BF47A2 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96F4B27B1432D39000BF47A2 /* MainWindow.xib */; };
+		96F4B2801432D39000BF47A2 /* TouchesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F4B27F1432D39000BF47A2 /* TouchesViewController.m */; };
+		96F4B2831432D39000BF47A2 /* TouchesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96F4B2811432D39000BF47A2 /* TouchesViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		96F4B2651432D38F00BF47A2 /* Touches.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Touches.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96F4B2691432D39000BF47A2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		96F4B26B1432D39000BF47A2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		96F4B26D1432D39000BF47A2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		96F4B2711432D39000BF47A2 /* Touches-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Touches-Info.plist"; sourceTree = "<group>"; };
+		96F4B2731432D39000BF47A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		96F4B2751432D39000BF47A2 /* Touches-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Touches-Prefix.pch"; sourceTree = "<group>"; };
+		96F4B2761432D39000BF47A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		96F4B2781432D39000BF47A2 /* TouchesAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchesAppDelegate.h; sourceTree = "<group>"; };
+		96F4B2791432D39000BF47A2 /* TouchesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchesAppDelegate.m; sourceTree = "<group>"; };
+		96F4B27C1432D39000BF47A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		96F4B27E1432D39000BF47A2 /* TouchesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchesViewController.h; sourceTree = "<group>"; };
+		96F4B27F1432D39000BF47A2 /* TouchesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchesViewController.m; sourceTree = "<group>"; };
+		96F4B2821432D39000BF47A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TouchesViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96F4B2621432D38F00BF47A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96F4B26A1432D39000BF47A2 /* UIKit.framework in Frameworks */,
+				96F4B26C1432D39000BF47A2 /* Foundation.framework in Frameworks */,
+				96F4B26E1432D39000BF47A2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96F4B25A1432D38F00BF47A2 = {
+			isa = PBXGroup;
+			children = (
+				96F4B26F1432D39000BF47A2 /* Touches */,
+				96F4B2681432D39000BF47A2 /* Frameworks */,
+				96F4B2661432D38F00BF47A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96F4B2661432D38F00BF47A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96F4B2651432D38F00BF47A2 /* Touches.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96F4B2681432D39000BF47A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96F4B2691432D39000BF47A2 /* UIKit.framework */,
+				96F4B26B1432D39000BF47A2 /* Foundation.framework */,
+				96F4B26D1432D39000BF47A2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96F4B26F1432D39000BF47A2 /* Touches */ = {
+			isa = PBXGroup;
+			children = (
+				96F4B2781432D39000BF47A2 /* TouchesAppDelegate.h */,
+				96F4B2791432D39000BF47A2 /* TouchesAppDelegate.m */,
+				96F4B27B1432D39000BF47A2 /* MainWindow.xib */,
+				96F4B27E1432D39000BF47A2 /* TouchesViewController.h */,
+				96F4B27F1432D39000BF47A2 /* TouchesViewController.m */,
+				96F4B2811432D39000BF47A2 /* TouchesViewController.xib */,
+				96F4B2701432D39000BF47A2 /* Supporting Files */,
+			);
+			path = Touches;
+			sourceTree = "<group>";
+		};
+		96F4B2701432D39000BF47A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96F4B2711432D39000BF47A2 /* Touches-Info.plist */,
+				96F4B2721432D39000BF47A2 /* InfoPlist.strings */,
+				96F4B2751432D39000BF47A2 /* Touches-Prefix.pch */,
+				96F4B2761432D39000BF47A2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96F4B2641432D38F00BF47A2 /* Touches */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96F4B2861432D39000BF47A2 /* Build configuration list for PBXNativeTarget "Touches" */;
+			buildPhases = (
+				96F4B2611432D38F00BF47A2 /* Sources */,
+				96F4B2621432D38F00BF47A2 /* Frameworks */,
+				96F4B2631432D38F00BF47A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Touches;
+			productName = Touches;
+			productReference = 96F4B2651432D38F00BF47A2 /* Touches.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96F4B25C1432D38F00BF47A2 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 96F4B25F1432D38F00BF47A2 /* Build configuration list for PBXProject "Touches" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 96F4B25A1432D38F00BF47A2;
+			productRefGroup = 96F4B2661432D38F00BF47A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96F4B2641432D38F00BF47A2 /* Touches */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96F4B2631432D38F00BF47A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96F4B2741432D39000BF47A2 /* InfoPlist.strings in Resources */,
+				96F4B27D1432D39000BF47A2 /* MainWindow.xib in Resources */,
+				96F4B2831432D39000BF47A2 /* TouchesViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96F4B2611432D38F00BF47A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96F4B2771432D39000BF47A2 /* main.m in Sources */,
+				96F4B27A1432D39000BF47A2 /* TouchesAppDelegate.m in Sources */,
+				96F4B2801432D39000BF47A2 /* TouchesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		96F4B2721432D39000BF47A2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96F4B2731432D39000BF47A2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		96F4B27B1432D39000BF47A2 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96F4B27C1432D39000BF47A2 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		96F4B2811432D39000BF47A2 /* TouchesViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96F4B2821432D39000BF47A2 /* en */,
+			);
+			name = TouchesViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96F4B2841432D39000BF47A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		96F4B2851432D39000BF47A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		96F4B2871432D39000BF47A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Touches/Touches-Prefix.pch";
+				INFOPLIST_FILE = "Touches/Touches-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		96F4B2881432D39000BF47A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Touches/Touches-Prefix.pch";
+				INFOPLIST_FILE = "Touches/Touches-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96F4B25F1432D38F00BF47A2 /* Build configuration list for PBXProject "Touches" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96F4B2841432D39000BF47A2 /* Debug */,
+				96F4B2851432D39000BF47A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96F4B2861432D39000BF47A2 /* Build configuration list for PBXNativeTarget "Touches" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96F4B2871432D39000BF47A2 /* Debug */,
+				96F4B2881432D39000BF47A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96F4B25C1432D38F00BF47A2 /* Project object */;
+}
